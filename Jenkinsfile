@@ -6,8 +6,8 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        sh 'rm -rf  hello-world-war'
-        sh 'git clone https://github.com/sudhasanshi/hello-world-war.git'
+        sh 'rm -rf  SpringDevOpsIntegration'
+        sh 'git clone https://github.com/sudhasanshi/SpringDevOpsIntegration.git'
       }
     }
     stage('build') {
